@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="glib">
+		<class>org.asena.AAA.Entity.Aaaccesslist</class>
+		<class>org.asena.AAA.Entity.Aaexceptionlog</class>
+		<class>org.asena.AAA.Entity.Aapage</class>
+		<class>org.asena.AAA.Entity.Aapagecat</class>
+		<class>org.asena.AAA.Entity.Aapagevisit</class>
+		<class>org.asena.AAA.Entity.Aarole</class>
+		<class>org.asena.AAA.Entity.Aasession</class>
+		<class>org.asena.AAA.Entity.Aauser</class>
+		<class>org.asena.agans.Entity.Hesabsalane</class>
+		<class>org.asena.agans.Entity.Ostan</class>
+		<class>org.asena.agans.Entity.Rahtype</class>
+		<class>org.asena.agans.Entity.Tafere</class>
+		<class>org.asena.agans.Entity.Tagatotype</class>
+		<class>org.asena.agans.Entity.Hesabmahane</class>
+		<class>org.asena.agans.Entity.Rah</class>
+		<class>org.asena.agans.Entity.Tagato</class>
+		<class>org.asena.agans.Entity.Hesabruzane</class>
+		<class>org.asena.agans.Entity.Serviceinfo</class>
+		<class>org.asena.agans.Entity.City</class>
+		<class>org.asena.agans.Entity.Moshtari</class>
+		<class>org.asena.agans.Entity.Driver</class>
+	</persistence-unit>
+</persistence>
